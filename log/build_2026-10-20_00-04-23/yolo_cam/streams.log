@@ -1,0 +1,19 @@
+[1.117s] Invoking command in '/home/quannotreal/yolo_ws/build/yolo_cam': PS1=(yolo_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/quannotreal/yolo_ws/build/yolo_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(yolo_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/quannotreal/yolo_ws/build/yolo_cam/build --no-deps symlink_data --force
+[1.530s] running develop
+[1.845s] running egg_info
+[1.845s] writing yolo_cam.egg-info/PKG-INFO
+[1.846s] writing dependency_links to yolo_cam.egg-info/dependency_links.txt
+[1.846s] writing entry points to yolo_cam.egg-info/entry_points.txt
+[1.846s] writing requirements to yolo_cam.egg-info/requires.txt
+[1.847s] writing top-level names to yolo_cam.egg-info/top_level.txt
+[1.849s] reading manifest file 'yolo_cam.egg-info/SOURCES.txt'
+[1.851s] writing manifest file 'yolo_cam.egg-info/SOURCES.txt'
+[1.855s] running build_ext
+[1.856s] Creating /home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages/yolo-cam.egg-link (link to .)
+[1.857s] Installing yolocam script to /home/quannotreal/yolo_ws/install/yolo_cam/lib/yolo_cam
+[1.857s] 
+[1.858s] Installed /home/quannotreal/yolo_ws/build/yolo_cam
+[1.858s] running symlink_data
+[1.858s] symbolically linking /home/quannotreal/yolo_ws/build/yolo_cam/resource/yolo_cam -> /home/quannotreal/yolo_ws/install/yolo_cam/share/ament_index/resource_index/packages
+[1.858s] symbolically linking /home/quannotreal/yolo_ws/build/yolo_cam/package.xml -> /home/quannotreal/yolo_ws/install/yolo_cam/share/yolo_cam
+[1.913s] Invoked command in '/home/quannotreal/yolo_ws/build/yolo_cam' returned '0': PS1=(yolo_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/quannotreal/yolo_ws/build/yolo_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(yolo_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/quannotreal/yolo_ws/build/yolo_cam/build --no-deps symlink_data --force

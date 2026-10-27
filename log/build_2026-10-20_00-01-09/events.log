@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (yolo_cam) JobQueued: {'identifier': 'yolo_cam', 'dependencies': OrderedDict()}
+[0.000329] (yolo_cam) JobStarted: {'identifier': 'yolo_cam'}
+[0.098737] (-) TimerEvent: {}
+[0.199976] (-) TimerEvent: {}
+[0.302445] (-) TimerEvent: {}
+[0.408597] (-) TimerEvent: {}
+[0.529987] (-) TimerEvent: {}
+[0.638971] (-) TimerEvent: {}
+[0.739939] (-) TimerEvent: {}
+[0.843308] (-) TimerEvent: {}
+[0.945682] (-) TimerEvent: {}
+[1.046864] (-) TimerEvent: {}
+[1.149463] (-) TimerEvent: {}
+[1.250939] (-) TimerEvent: {}
+[1.351955] (-) TimerEvent: {}
+[1.453093] (-) TimerEvent: {}
+[1.556144] (-) TimerEvent: {}
+[1.662411] (-) TimerEvent: {}
+[1.763925] (-) TimerEvent: {}
+[1.866569] (-) TimerEvent: {}
+[1.968846] (-) TimerEvent: {}
+[2.069788] (-) TimerEvent: {}
+[2.170384] (-) TimerEvent: {}
+[2.273064] (-) TimerEvent: {}
+[2.376471] (-) TimerEvent: {}
+[2.477783] (-) TimerEvent: {}
+[2.580106] (-) TimerEvent: {}
+[2.681377] (-) TimerEvent: {}
+[2.781188] (yolo_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_cam', 'build', '--build-base', '/home/quannotreal/yolo_ws/build/yolo_cam/build', 'install', '--record', '/home/quannotreal/yolo_ws/build/yolo_cam/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/quannotreal/yolo_ws/src/yolo_cam', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'quannotreal', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/quannotreal', 'OLDPWD': '/home/quannotreal/yolo_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(yolo_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '1381', 'SYSTEMD_EXEC_PID': '1559', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6377', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'quannotreal', 'JOURNAL_STREAM': '8:10088', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'quannotreal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/quannotreal/yolo_env/bin:/opt/ros/humble/bin:/home/quannotreal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu22:@/tmp/.ICE-unix/1518,unix/ubuntu22:/tmp/.ICE-unix/1518', 'INVOCATION_ID': 'e970d92fe5e1490492f3ed62e354daba', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'VIRTUAL_ENV_PROMPT': '(yolo_env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JPKGX3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:60459ddc-275d-4a86-bb76-c0fd7ac332f9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/quannotreal/yolo_env', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/quannotreal/yolo_ws/build/yolo_cam', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/quannotreal/yolo_ws/build/yolo_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.786580] (-) TimerEvent: {}
+[2.887506] (-) TimerEvent: {}
+[2.989343] (-) TimerEvent: {}
+[3.090494] (-) TimerEvent: {}
+[3.191995] (-) TimerEvent: {}
+[3.262432] (yolo_cam) StdoutLine: {'line': b'running egg_info\n'}
+[3.262732] (yolo_cam) StdoutLine: {'line': b'creating ../../build/yolo_cam/yolo_cam.egg-info\n'}
+[3.262914] (yolo_cam) StdoutLine: {'line': b'writing ../../build/yolo_cam/yolo_cam.egg-info/PKG-INFO\n'}
+[3.264266] (yolo_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_cam/yolo_cam.egg-info/dependency_links.txt\n'}
+[3.264437] (yolo_cam) StdoutLine: {'line': b'writing entry points to ../../build/yolo_cam/yolo_cam.egg-info/entry_points.txt\n'}
+[3.264498] (yolo_cam) StdoutLine: {'line': b'writing requirements to ../../build/yolo_cam/yolo_cam.egg-info/requires.txt\n'}
+[3.264551] (yolo_cam) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_cam/yolo_cam.egg-info/top_level.txt\n'}
+[3.265001] (yolo_cam) StdoutLine: {'line': b"writing manifest file '../../build/yolo_cam/yolo_cam.egg-info/SOURCES.txt'\n"}
+[3.269875] (yolo_cam) StdoutLine: {'line': b"reading manifest file '../../build/yolo_cam/yolo_cam.egg-info/SOURCES.txt'\n"}
+[3.270082] (yolo_cam) StdoutLine: {'line': b"writing manifest file '../../build/yolo_cam/yolo_cam.egg-info/SOURCES.txt'\n"}
+[3.273458] (yolo_cam) StdoutLine: {'line': b'running build\n'}
+[3.273661] (yolo_cam) StdoutLine: {'line': b'running build_py\n'}
+[3.274289] (yolo_cam) StdoutLine: {'line': b'creating /home/quannotreal/yolo_ws/build/yolo_cam/build\n'}
+[3.274758] (yolo_cam) StdoutLine: {'line': b'creating /home/quannotreal/yolo_ws/build/yolo_cam/build/lib\n'}
+[3.275146] (yolo_cam) StdoutLine: {'line': b'creating /home/quannotreal/yolo_ws/build/yolo_cam/build/lib/yolo_cam\n'}
+[3.275302] (yolo_cam) StdoutLine: {'line': b'copying yolo_cam/__init__.py -> /home/quannotreal/yolo_ws/build/yolo_cam/build/lib/yolo_cam\n'}
+[3.275452] (yolo_cam) StdoutLine: {'line': b'copying yolo_cam/camera.py -> /home/quannotreal/yolo_ws/build/yolo_cam/build/lib/yolo_cam\n'}
+[3.275608] (yolo_cam) StdoutLine: {'line': b'running install\n'}
+[3.275906] (yolo_cam) StdoutLine: {'line': b'running install_lib\n'}
+[3.275971] (yolo_cam) StdoutLine: {'line': b'creating /home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages/yolo_cam\n'}
+[3.276028] (yolo_cam) StdoutLine: {'line': b'copying /home/quannotreal/yolo_ws/build/yolo_cam/build/lib/yolo_cam/__init__.py -> /home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages/yolo_cam\n'}
+[3.276082] (yolo_cam) StdoutLine: {'line': b'copying /home/quannotreal/yolo_ws/build/yolo_cam/build/lib/yolo_cam/camera.py -> /home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages/yolo_cam\n'}
+[3.276136] (yolo_cam) StdoutLine: {'line': b'byte-compiling /home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages/yolo_cam/__init__.py to __init__.cpython-310.pyc\n'}
+[3.276188] (yolo_cam) StdoutLine: {'line': b'byte-compiling /home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages/yolo_cam/camera.py to camera.cpython-310.pyc\n'}
+[3.277720] (yolo_cam) StdoutLine: {'line': b'running install_data\n'}
+[3.279231] (yolo_cam) StdoutLine: {'line': b'creating /home/quannotreal/yolo_ws/install/yolo_cam/share/ament_index\n'}
+[3.280584] (yolo_cam) StdoutLine: {'line': b'creating /home/quannotreal/yolo_ws/install/yolo_cam/share/ament_index/resource_index\n'}
+[3.280661] (yolo_cam) StdoutLine: {'line': b'creating /home/quannotreal/yolo_ws/install/yolo_cam/share/ament_index/resource_index/packages\n'}
+[3.280794] (yolo_cam) StdoutLine: {'line': b'copying resource/yolo_cam -> /home/quannotreal/yolo_ws/install/yolo_cam/share/ament_index/resource_index/packages\n'}
+[3.280867] (yolo_cam) StdoutLine: {'line': b'copying package.xml -> /home/quannotreal/yolo_ws/install/yolo_cam/share/yolo_cam\n'}
+[3.280922] (yolo_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.283467] (yolo_cam) StdoutLine: {'line': b'Copying ../../build/yolo_cam/yolo_cam.egg-info to /home/quannotreal/yolo_ws/install/yolo_cam/lib/python3.10/site-packages/yolo_cam-0.0.0-py3.10.egg-info\n'}
+[3.286050] (yolo_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[3.293456] (-) TimerEvent: {}
+[3.320036] (yolo_cam) StdoutLine: {'line': b'Installing yolocam script to /home/quannotreal/yolo_ws/install/yolo_cam/lib/yolo_cam\n'}
+[3.320750] (yolo_cam) StdoutLine: {'line': b"writing list of installed files to '/home/quannotreal/yolo_ws/build/yolo_cam/install.log'\n"}
+[3.395899] (-) TimerEvent: {}
+[3.451263] (yolo_cam) CommandEnded: {'returncode': 0}
+[3.497619] (-) TimerEvent: {}
+[3.534452] (yolo_cam) JobEnded: {'identifier': 'yolo_cam', 'rc': 0}
+[3.538293] (-) EventReactorShutdown: {}

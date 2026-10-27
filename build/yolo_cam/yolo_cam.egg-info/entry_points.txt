@@ -1,0 +1,6 @@
+[console_scripts]
+camera_node = yolo_cam.camera_node:main
+pub_error = yolo_cam.pub_error:main
+yolo_node = yolo_cam.yolo_node:main
+yolocam = yolo_cam.camera:main
+
